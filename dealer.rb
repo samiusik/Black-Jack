@@ -1,4 +1,4 @@
-class Dealer < Player
+class Dealer < Playerng
   def initialize
     @cards_deck = CardsDeck.new
     super('Dealer')
