@@ -9,4 +9,4 @@ class Bank
     player.balance += amount
     self.balance -= amount
   end
-end
+end 
