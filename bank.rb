@@ -10,4 +10,3 @@ class Bank
     self.balance -= amount
   end
 end
- 
