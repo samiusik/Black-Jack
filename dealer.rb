@@ -1,13 +1,10 @@
-class Dealer < Playerng
+class Dealer < Player
   def initialize
     @cards_deck = CardsDeck.new
     super('Dealer')
   end
 
-  def deal_cards(player)
-    player.new_round
-    2.times { give_card(player) }
-  end
+
 
   def give_card(player)
     return unless player.hand.can_take_more_cards?

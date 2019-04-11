@@ -16,6 +16,13 @@ class Interface
     gets.to_i
   end
 
+  def balance_status(players)
+    puts "-"*10
+    players.each do |player|
+      puts "#{player.name} money - #{player.money}"
+    end
+  end
+
   def continue?
     puts 'Continue?(y/n)'
     choise = gets.chomp

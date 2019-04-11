@@ -10,9 +10,10 @@ class Calculator
   def calculate
     if draw?
       draw
-    else
+    else  
       bank.give_money(winner, bank.balance)
-      "#{winner.name} wins!"
+      print "#{winner.name}, wins!"
+      print " Player account #{user.balance}, Dealer account #{dealer.balance}"
     end
   end
 

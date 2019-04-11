@@ -1,6 +1,7 @@
 class EmptyDeck < RuntimeError; end
 class CardsDeck
-  attr_accessor :cards
+  
+attr_accessor :cards
 
   def initialize
     @cards = []
