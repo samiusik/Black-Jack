@@ -19,9 +19,4 @@ class Player
   def new_round
     self.hand = Hand.new
   end
-
-    def deal_cards(player)
-    player.new_round
-    2.times { give_card(player) }
-  end
 end
