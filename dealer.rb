@@ -4,8 +4,6 @@ class Dealer < Player
     super('Dealer')
   end
 
-
-
   def give_card(player)
     return unless player.hand.can_take_more_cards?
 
